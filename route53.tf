@@ -1,5 +1,5 @@
 data "aws_route53_zone" "main" {
-  name         = var.bucket_name
+  name         = var.dns_zone
   private_zone = false
 }
 
