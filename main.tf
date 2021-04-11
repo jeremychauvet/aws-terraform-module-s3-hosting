@@ -57,8 +57,8 @@ resource "aws_s3_bucket" "frontend_logs" {
     }
 
     transition {
-      days          = 5
-      storage_class = "STANDARD_IA" # or "ONEZONE_IA"
+      days          = 30
+      storage_class = "STANDARD_IA"
     }
 
     expiration {
