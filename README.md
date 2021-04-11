@@ -5,7 +5,7 @@ This module allow you to host easilly your website on AWS S3. This module bring 
 - A CDN with AWS Cloudfront (HTTPS on your URL).
 - An S3 bucket to deploy your static site.
 
-Please read [module techincal documentation](./TERRAFORM.md)
+Please read [module technical documentation](./TERRAFORM.md)
 
 ## Services used
 
