@@ -29,7 +29,7 @@ resource "aws_s3_bucket" "frontend" {
 
 resource "aws_s3_bucket" "frontend_logs" {
   bucket        = "${var.bucket_name}-logs"
-  acl           = "private"
+  acl           = "log-delivery-write"
   force_destroy = true
 
   versioning {
