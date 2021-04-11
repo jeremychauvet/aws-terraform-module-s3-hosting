@@ -62,7 +62,7 @@ resource "aws_s3_bucket" "frontend_logs" {
     }
 
     expiration {
-      days = 15
+      days = 90
     }
   }
 
